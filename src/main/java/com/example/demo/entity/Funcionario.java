@@ -15,6 +15,9 @@ public class Funcionario {
     private String salario;
     private String mesesTrabalhadosNoAno;
 
+    public Funcionario() {
+    }
+
     public Funcionario(Long id, String nome, String idade, String cpf, String salario, String mesesTrabalhadosNoAno) {
         this.id = id;
         this.nome = nome;
